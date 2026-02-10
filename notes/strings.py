@@ -14,7 +14,7 @@ print(s1[-1])  # Output: W last character
 # Slicing
 # indexing for single character
 # slicing for range of characters
-# list_slicing[start: end: step]
+# str_slicing[start: end: step]
 
 - start : starting index at which slicing operation starts (default is 0)
 - end : ending index at which the slicing operation stops (default is length of string) (excluded)
