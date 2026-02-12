@@ -1,6 +1,6 @@
 # set are non sequential and unordered collection of unique items cannot be indexed
 # sets are mutable meaning we can add or remove items after creation
-# unique vales only no duplicates allowed
+# unique values only no duplicates allowed
 # items are enclosed in curly braces {} and are separated by commas
 # cannot be sliced or indexed like lists or tuples
 
@@ -64,3 +64,12 @@ print(unique_subjects)  # Output: {'Maths', 'cs'}
 frozen_set1 = frozenset([1, 2, 3, 4, 5])
 print(type(frozen_set1))  # Output: <class 'frozenset'>
 print(frozen_set1)        # Output: frozenset({1, 2, 3, 4, 5})
+
+# can perform set operations but cannot add or remove items
+frozen_set2 = frozenset([4, 5, 6, 7, 8])
+common_items = frozen_set1.intersection(frozen_set2)
+print(common_items)  # Output: frozenset({4, 5})        
+all_items = frozen_set1.union(frozen_set2)
+print(all_items)  # Output: frozenset({1, 2, 3, 4, 5, 6, 7, 8})
+# frozen_set1.add(10)  # raises AttributeError
+# frozen_set2.remove(4)  # raises AttributeError   
