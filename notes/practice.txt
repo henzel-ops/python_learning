@@ -1,0 +1,24 @@
+This is a practice file for file handling in Python.
+We are learning how to read and write files.
+This file will be used for demonstration purposes.
+This is a practice file for file handling in Python.
+We are learning how to read and write files.
+This file will be used for demonstration purposes.
+This is a practice file for file handling in Python.
+We are learning how to read and write files.
+This file will be used for demonstration purposes.
+This is a practice file for file handling in Python.
+We are learning how to read and write files.
+This file will be used for demonstration purposes.
+This is a practice file for file handling in Python.
+We are learning how to read and write files.
+This file will be used for demonstration purposes.
+This is a practice file for file handling in Python.
+We are learning how to read and write files.
+This file will be used for demonstration purposes.
+This is a practice file for file handling in Python.
+We are learning how to read and write files.
+This file will be used for demonstration purposes.
+This is a practice file for file handling in Python.
+We are learning how to read and write files.
+This file will be used for demonstration purposes.
