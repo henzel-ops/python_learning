@@ -33,9 +33,9 @@ set2.remove(20)
 print(set2)  # Output: {10, 30, 40} 
 # discard does not raise error if item not found
 set2.discard(50)
-print(set2)  # Output: {10, 30, 40}
+print(set2)  # Output: {10, 30, 40} does not raise error
 
-# set operations
+# set logical operations
 students1 = {"English", "Maths", "cs", "Physics", "Chemistry"}
 student2 = {"Biology", "English", "Chemistry", "Physics"}
 student3 = {"History", "Geography"}

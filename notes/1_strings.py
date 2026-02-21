@@ -17,7 +17,7 @@ print(s1[-1])  # Output: W last character
 # str_slicing[start: end: step]
 
 - start : starting index at which slicing operation starts (default is 0)
-- end : ending index at which the slicing operation stops (default is length of string) (exclud's the end index)
+- end : ending index at which the slicing operation stops (default is length of string) (exclude's the end index)
 - step : integer that specifies the increment between each index for slicing (default is 1)
 """
 print(s1[2:7:1]) # Output: llo W characters from index 2 to 6
