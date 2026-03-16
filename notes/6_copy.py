@@ -9,7 +9,7 @@ print("Shallow Copied List:", shallow_list)  # Output: [1, 2, [3, 4], 5]
 # Modifying the nested list in the shallow copy
 shallow_list[2][0] = 'Changed'
 print("After modifying shallow copy:")
-print("Original List:", og_list, "id:", id(og_list[2]))          # Output: [1, 2, ['Changed', 4], 5]
+print("Original List:", og_list, "id:", id(og_list[2]))          # Output: [1, 2, ['Changed', 4], 5] , id for nested listwill be same as shallow copy
 print("Shallow Copied List:", shallow_list, "id:", id(shallow_list[2]))  # Output: [1, 2, ['Changed', 4], 5]
 print(f"first layer id same? {id(og_list) == id(shallow_list)}")  # False
 print(f"second layer id same? {id(og_list[2]) == id(shallow_list[2])}")  # True
